@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    align-content: center;
+    text-align: center;
+    background-color: #20013a;
+    color: #ffe3fd;
+    font-size: 40px;
+    line-height: 70px;
+}
+
+.head-img {
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 5px;
+}
+
+.head-img.img {
+    height: 60px;
+    width: 75px;
+    background-size: cover;
+}
+
+.head-text {
+    display: flex;
+    justify-content: center;
+}
+
+.head-btn {
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+    margin-right: 10px;
+    color: white;
+}
+
+.btn-upload {
+    margin: auto;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.btn-upload:hover {
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.btn-upload:focus {
+    border: none;
+    outline: none;
+}
+
+.article-view {
+    padding: 20px;
+    margin: 20px auto;
+    align-content: center;
+    text-align: center;
+    background-color: #ffe3fd;
+    width: 70%;
+    font-size: 18px;
+}
+
+.btn-upload-page {
+    margin: auto;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: #20013a;
+    font-weight: 400;
+}
+
+.btn-upload-page:hover {
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.btn-upload-page:focus {
+    border: none;
+    outline: none;
+}
